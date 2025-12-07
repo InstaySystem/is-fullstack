@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/InstaySystem/is-be
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/InstaySystem/is-admin
