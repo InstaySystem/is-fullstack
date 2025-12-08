@@ -10,6 +10,7 @@ This is a test version of the Instay project, built with Go Gin and Nextjs
 This is the entire source code of the project including Frontend, Backend and Deployment. The project uses technologies including AWS S3, RabbitMQ, Redis, PostgreSQL, SMTP, IMAP, JWT, Nginx, ... deployed on AWS EC2. The project is a hotel management system and provides services to customers during in-stay.
 
 ### Project structure
+```
 instay/
 ├── backend/
 │   ├── cmd/
@@ -24,6 +25,7 @@ instay/
 │   ├── src/
 │   └── Dockerfile
 └── docker-compose.yaml
+```
 
 ### Installation & Running
 
