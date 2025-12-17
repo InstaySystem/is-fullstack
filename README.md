@@ -24,7 +24,7 @@ instay/
 │   ├── public/
 │   ├── src/
 │   └── Dockerfile
-└── docker-compose.yaml
+└── docker-compose.yml
 ```
 
 ### Installation & Running
@@ -37,6 +37,6 @@ cd instay
 
 2. **Start the complete development environment**
 ```bash
-docker-compose up -d
+docker-compose -f docker-compose.local.yml up -d --build
 ```
 

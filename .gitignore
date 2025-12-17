@@ -40,7 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-main.yaml
+main.yml
 .env
 tmp
 logs
