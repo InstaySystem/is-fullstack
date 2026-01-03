@@ -62,7 +62,7 @@ services:
     volumes:
       - ./backend/logs:/app/logs
     networks:
-      - instay_network
+      - app_network
 
   frontend:
     build:
@@ -80,8 +80,8 @@ services:
     depends_on:
       - backend
     networks:
-      - instay_network
+      - app_network
 
 networks:
-  instay_network:
+  app_network:
     driver: bridge
